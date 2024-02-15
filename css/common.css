@@ -25,14 +25,31 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.change-color {
+ background-color: #4e75ff;
+ border-radius: 8px;
+ width: 148px; 
+ height: 40px;
+ font-family: "Montserrat", sans-serif;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.04em;
+ color: #fff;
+ }
 #boxes {
   display: flex;
   gap: 10px;
   margin-top: 20px;
 }
-.create {
-background-color:  #4e75ff;
-}
-.destroy {
-  background-color: #ff4e4e;
+#controls {
+display: flex;
+align-items: center;
+gap: 20px;
 }
